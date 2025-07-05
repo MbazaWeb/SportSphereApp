@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "build", // This tells Firebase to deploy the 'build' folder
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
